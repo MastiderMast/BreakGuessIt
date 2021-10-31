@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "sendkeys": "^1.1.1"
+  }
+}
