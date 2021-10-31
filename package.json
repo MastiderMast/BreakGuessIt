@@ -1,5 +1,23 @@
 {
   "dependencies": {
+    "chalk": "^4.1.2",
     "sendkeys": "^1.1.1"
-  }
+  },
+  "name": "breakguessit",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MastiderMast/BreakGuessit.git"
+  },
+  "author": "Masti#5516",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MastiderMast/BreakGuessit/issues"
+  },
+  "homepage": "https://github.com/MastiderMast/BreakGuessit#readme",
+  "description": ""
 }
