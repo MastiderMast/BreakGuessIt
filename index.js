@@ -9,9 +9,14 @@ for (let i = 0; i < 100; i++) {
 }
 */
 
-for (let i = 0; i <= 5; i++) {
-    console.log(i) 
-    setTimeout(function(){ 
-        console.log("Ready")
-    }, 1000);
+loop();
+
+function loop(start, end) {
+  setTimeout(function() {
+    console.log(i);
+    i++;
+    if (i <= 10) {
+      loop();
+    }
+  }, 3000)
 }
