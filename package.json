@@ -11,13 +11,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MastiderMast/BreakGuessit.git"
+    "url": "git+https://github.com/MastiderMast/BreakGuessIt.git"
   },
   "author": "Masti#5516",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MastiderMast/BreakGuessit/issues"
+    "url": "https://github.com/MastiderMast/BreakGuessIt/issues"
   },
-  "homepage": "https://github.com/MastiderMast/BreakGuessit#readme",
-  "description": ""
+  "homepage": "https://github.com/MastiderMast/BreakGuessIt#readme",
+  "description": "A small tool that counts up from a start to end number"
 }
