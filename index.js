@@ -2,8 +2,8 @@ const sendkeys = require('sendkeys')
 const { green, blue, yellow } = require('chalk')
 
 console.clear()
-var start = 99
-var end = 1000
+var start = 1
+var end = 100
 
 console.log(`${yellow("[BreakGuessIt]")} ${green(`Start counting from ${start} to ${end}`)}`)
 
@@ -15,7 +15,11 @@ function loop() {
             loop()
             sendkeys.sync(`${start}`)
             sendkeys.sync(`{ENTER}`)
-            console.log(`${yellow("[BreakGuessIt]")} ${green(`${start+"/"+end}`)} | ${blue(`Timeout: ${wait}`)}`)
+
+            var percent = (start / end) * 100 
+            var newpercent = Math.round((percent + Number.EPSILON) * 100) / 100
+
+            console.log(`${yellow("[BreakGuessIt]")} ${green(`${start+"/"+end+" "+Math.round(newpercent)+"%"}`)} | ${blue(`Timeout: ${wait}`)}`)
         } else {
             console.log(`${yellow("[BreakGuessIt]")} ${green(`Done!`)}`)
         }
